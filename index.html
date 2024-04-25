@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حاله الطقس</title>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <img src="line.png" alt="" class="line1" />
+    <img src="line2.png" alt="" class="line2" />
+    <img src="line3.png" alt="" class="line3" />
+    <header class="main-head">
+      <div class="logo">Wether Dark</div>
+    </header>
+    <div class="intro-sec">
+      مرحبا بك في برنامج الطقس اليومي هنا ستتعرف علي تفاصيل الطقس والبحث عن
+      الطقس في جميع البلدان
+    </div>
+    <div class="main-sec">
+      <div class="search-input">
+        <button id="send-btn">ابحث هنا</button>
+        <input
+          type="text"
+          id="city-name"
+          placeholder="ابحث عن البلد هنا!"
+          form="search"
+        />
+      </div>
+      <div class="wether-cards" id="cards"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
