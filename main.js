@@ -59,7 +59,7 @@
 let cityName = document.getElementById("city-name");
 let btnSearch = document.getElementById("send-btn");
 let cardsSec = document.getElementById("cards");
-const baseUrl = "http://api.openweathermap.org/data/2.5/weather";
+const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
 const apiKey = "1b6ae829f4cbd5d93f56d4d02eb5d4eb";
 let lastSearch = "";
 
