@@ -135,8 +135,18 @@ body {
   .line2 {
     width: 200px;
   }
+  .search-input {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .search-input button {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
   .search-input input {
-    width: 275px;
+    width: 90%;
+    margin: auto;
   }
   .wether-cards .card {
     width: 90%;
